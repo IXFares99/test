@@ -7,7 +7,7 @@ client.on("ready", () => {
 let channel =     client.channels.get("589421447974486047")
 setInterval(function() {
 channel.send(`أبي حساب فول أكسيس`);
-}, 1000)
+}, 99999)
 })
 
 client.login(process.env.BOT_TOKEN);
