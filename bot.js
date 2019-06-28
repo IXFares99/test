@@ -1,14 +1,13 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-console.log("Scrpit By iyoshi");
+console.log("Scrpit By Dream");
 
 
 client.on("ready", () => {
-let channel =     client.channels.get("594235011302031363")
+let channel =     client.channels.get("")
 setInterval(function() {
-channel.send( Shanks Shanks Shanks Shanks ShanksShanksShanksShanksShanksShanksShanksShanksShanks);
-}, 100.4)
+channel.send(``);
+}, 30)
 })
 
 client.login(process.env.BOT_TOKEN);
-```
